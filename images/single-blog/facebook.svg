@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 7 15" width="7" height="15">
+	<defs>
+		<image width="7" height="15" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAPCAMAAAAf3yWMAAAAAXNSR0IB2cksfwAAAFdQTFRFMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzgl+mzgAAAB10Uk5TAAM4UVUbC8r/UGqYVJw04/jx7kjzM3GTdw8qRA4wlZhlAAAARElEQVR4nI3KOQ6AMBQD0WE3a0jYCfc/Jx8hUePmFWMgSbO8gLKSVEOj11bqsPXSYLhR8mFifrIWVrtv+/H1354xXnADu78DXPLuseEAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="Blog">
+		<g id="share">
+			<use id="facebook " href="#img1" x="0" y="0" />
+		</g>
+	</g>
+</svg>

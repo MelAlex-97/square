@@ -1,0 +1,74 @@
+//Portfolio
+.portfolio {
+  margin-bottom: 30px;
+}
+.portfolio__items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 65px;
+}
+.portfolio__item {
+  width: 380px;
+  height: 380px;
+  position: relative;
+  opacity: 0;
+  transform: scale(0);
+  &:first-child {
+    @extend %flex-center;
+  }
+}
+.portfolio__title {
+  font: 400 24px $font-robotoCondenced;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+}
+.portfolio__desc {
+  font: 300 18px $font-robotoCondenced;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.portfolio__item-img {
+  width: 100%;
+  height: 100%;
+}
+.portfolio__nav {
+  display: flex;
+  justify-content: flex-end;
+}
+.portfolio__nav-link {
+  width: 50px;
+  height: 50px;
+  background-color: $color-gray;
+  margin-right: 80px;
+  @extend %flex-center;
+  transition: background-color 0.3s ease-in-out;
+  &:hover {
+    background-color: $color-yellow;
+  }
+}
+.portfolio__item-info {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  @extend %flex-center;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+  &:hover {
+    opacity: 1;
+  }
+}
+.portfolio__actor {
+  font: 20px $font-robotoCondenced;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: $color-gray;
+  width: 300px;
+  height: 300px;
+  background-color: rgba($color: #ffffff, $alpha: 0.8);
+  @extend %flex-center;
+  cursor: pointer;
+}

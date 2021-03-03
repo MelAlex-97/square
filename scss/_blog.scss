@@ -1,0 +1,134 @@
+//Blog
+.blog__inner {
+  margin: 0 10px;
+}
+.blog__items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.news {
+  width: 360px;
+  margin-bottom: 40px;
+  position: relative;
+  &:nth-child(odd) {
+    background-color: $color-gray;
+  }
+  &:nth-child(even) {
+    background-color: $color-black;
+  }
+  margin-right: 50px;
+  &:nth-child(3n) {
+    margin-right: 0;
+  }
+}
+.news__content {
+  padding: 30px 10px 70px;
+}
+.news__title {
+  font: 26px $font-robotoCondenced;
+  color: $color-white;
+  margin-bottom: 15px;
+}
+.news__desc {
+  font: 300 14px $font-robotoCondenced;
+  color: $color-white;
+  margin-bottom: 40px;
+}
+.news__btn {
+  @extend %flex-center;
+}
+.news__btn-open {
+  text-transform: uppercase;
+  color: $color-white;
+  font: 13px $font-robotoCondenced;
+  padding: 10px 50px;
+  background-color: $color-yellow;
+  letter-spacing: 1px;
+  transition: all 0.3s ease-in-out;
+  border: 2px solid transparent;
+  &:hover {
+    border: 2px solid $color-yellow;
+    background-color: transparent;
+    color: $color-yellow;
+    transform: scale(1.01, 1.01);
+  }
+}
+.news__details {
+  font: 300 13px $font-robotoCondenced;
+  color: $color-white;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 30px 0 40px;
+  letter-spacing: 1px;
+  margin-top: auto;
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+}
+.news__date,
+.news__comments {
+  position: relative;
+}
+.news__date::before {
+  @extend %pseudo-element;
+  background-image: url("../images/blog/date-icon.png");
+  width: 12px;
+  height: 13px;
+  right: 75px;
+}
+.news__comments::before {
+  @extend %pseudo-element;
+  background-image: url("../images/blog/message-icon.png");
+  width: 13px;
+  height: 11px;
+  right: 25px;
+  top: 2px;
+}
+.blog__nav {
+  margin-bottom: 50px;
+}
+.blog__control {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+.blog__control-btn {
+  font: 13px $font-robotoCondenced;
+  color: $color-white;
+  border: none;
+  outline: none;
+  background-color: $color-gray;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  &:hover {
+    background-color: transparent;
+    color: $color-yellow;
+    border: 2px solid $color-yellow;
+  }
+  border: 2px solid transparent;
+}
+.blog__control-number {
+  font: 15px $font-robotoCondenced;
+  color: $color-gray;
+  @extend %flex-center;
+  margin: 8px 10px;
+}
+.blog__up-btn {
+  display: flex;
+  justify-content: flex-end;
+}
+.blog__up-link {
+  width: 50px;
+  height: 50px;
+  background-color: $color-gray;
+  @extend %flex-center;
+  transition: background-color 0.3s ease;
+  &:hover {
+    background-color: $color-yellow;
+  }
+}

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 13" width="14" height="13">
+	<defs>
+		<image width="14" height="13" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAANCAMAAACuAq9NAAAAAXNSR0IB2cksfwAAAKtQTFRFMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzQ8Vr0gAAADl0Uk5TAAsXJTja/95jfV7mNAfk0ExP+4wiM60GDdH+1sJhVOdDCNj3Ci2Z7xwbjvpQKm3d6EshmOrZeg8SXdJY8AAAAHxJREFUeJxjYIABRjDJxAymWFjZ2Dk4mRm4uHmAPF4+NiDgF2AQZBMSFmEQBfHYxMQZJCTZ2KSkZcBcWQYGOXk2OFBgYFBUgvOUVYCmqErCuGpgm7ihPHUNsJWaWtognrYOiKOhq6cP4hkYguWMjE2AHFMzc7hrLYxUYEwAlCkIg+K6K4QAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="Blog">
+		<g id="share">
+			<use id="twitter" href="#img1" x="0" y="0" />
+		</g>
+	</g>
+</svg>

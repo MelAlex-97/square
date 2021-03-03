@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 15" width="12" height="15">
+	<defs>
+		<image width="12" height="15" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAPCAMAAADnP957AAAAAXNSR0IB2cksfwAAAOFQTFRF////KS0vKS0vKS0vKS0vKS0vKS0vKS0vKS0vKS0vKS0vKS0vKS0vKS0vKS0vKS0vKS0vKS0vKS0vKS0vKS0vKS0vKS0vKS0vKS0vKS0vKS0vKS0vKS0vKS0vKS0vKS0vKS0vKS0vKS0vKS0vKS0vKS0vKS0vKS0vKS0vKS0vKS0vKS0vKS0vKS0vKS0vKS0vKS0vKS0vKS0vKS0vKS0vKS0vKS0vKS0vKS0vKS0vKS0vKS0vKS0vKS0vKS0vKS0vKS0vKS0vKS0vKS0vKS0vKS0vKS0vKS0vKS0vKS0vKS0vECV96AAAAEt0Uk5TAAxfmKqgUwRG6PjFv+D/0x8++RsBaP7UBc3nEiuEpFYdid5+aY4vZA9ecY+S7R6cawnaC+79IgI6P/UtFbB8yKkIuPoNPVXrxMIDJv8k6gAAAIxJREFUeJxNjdcWwVAABFcnYhFX9N6CRPQWvfP/HySJwzFPMy+7AODx+vyBYAgO4YgUlWOMJ2xPKnIKEGk1kwVy+UKxZGeZFVRZE3U2gCZbaLOjkV2gxz40RReGOgBMDgHdGEljYDKdzYHFcsW1tdnSdI923JM8HN04nS/Xm4UP9wd+CGf4x/P1F9pX3iS0DYH1cWs9AAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="Blog">
+		<g id="share">
+			<use id="pinterest" href="#img1" x="0" y="0" />
+		</g>
+	</g>
+</svg>

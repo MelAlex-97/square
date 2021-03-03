@@ -1,0 +1,125 @@
+//Contact
+.contact {
+  padding: 75px 0 100px;
+}
+.contact__inner {
+  display: flex;
+  justify-content: center;
+}
+.contact__title {
+  margin-bottom: 35px;
+}
+.contact__title,
+.info__title {
+  @extend %title;
+}
+.contact__form-box {
+  padding: 0 10px;
+  margin-right: 50px;
+  width: 370px;
+}
+.form__label {
+  font: 400 14px $font-robotoCondenced;
+  word-spacing: 2px;
+  display: block;
+}
+.form__input,
+.form__textarea {
+  display: block;
+  margin: 7px 0 35px;
+  width: 100%;
+  padding: 5px 10px;
+  font: 16px $font-robotoCondenced;
+  outline: none;
+  border: 1px solid;
+  &:focus {
+    border: 1px solid $color-yellow;
+  }
+}
+.form__input {
+  height: 40px;
+}
+.form__textarea {
+  resize: none;
+  height: 200px;
+}
+.form__submit {
+  font: 400 14px $font-robotoCondenced;
+  text-transform: uppercase;
+  color: $color-white;
+  padding: 15px 80px;
+  background-color: $color-gray;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  &:hover {
+    background-color: $color-yellow;
+    color: $color-black;
+  }
+}
+
+//Info
+.info__title {
+  margin-bottom: 40px;
+  padding-left: 25px;
+}
+.info__data {
+  padding-left: 70px;
+  margin-bottom: 70px;
+}
+.info__address::before {
+  content: "";
+  position: absolute;
+  background-image: url("../images/contact/geolocation-icon.png");
+  width: 8px;
+  height: 12px;
+  left: -28px;
+  top: 2px;
+}
+.info__data-item {
+  font: 400 16px $font-robotoCondenced;
+  color: $color-black;
+  display: block;
+  position: relative;
+  transition: color 0.3s ease;
+  margin-bottom: 15px;
+  &:last-child {
+    margin-bottom: 0;
+  }
+  @extend %hover-text;
+}
+.info__tel::before {
+  content: "";
+  position: absolute;
+  background-image: url("../images/contact/tel-icon.png");
+  width: 11px;
+  height: 11px;
+  left: -30px;
+  top: 2px;
+}
+.info__email::before {
+  content: "";
+  position: absolute;
+  background-image: url("../images/contact/message-icon.png");
+  width: 12px;
+  height: 10px;
+  left: -29px;
+  top: 2px;
+}
+.info__desc {
+  padding-left: 40px;
+  width: 370px;
+  margin-bottom: 100px;
+}
+.info__desc-text {
+  font: 400 14px/20px $font-robotoCondenced;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+.info__logo {
+  margin: 0 auto;
+}
